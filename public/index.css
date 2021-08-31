@@ -1,7 +1,6 @@
 .wrapper {
     display: flex;
     justify-content: center;
-    /* flex-basis: 80%; */
-    
+    background-color: #d2e7f7;
     color: red;
 }
