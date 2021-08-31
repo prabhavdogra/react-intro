@@ -1,0 +1,52 @@
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-basis: 75%;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  background-color: #d2e7f7;
+  border-radius: 0.9em;
+  width: 350px;
+  height: 350px;
+  margin: 0.4em;
+}
+
+.item-structure {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+
+.item-info {
+  display: flex;
+  justify-content: center;
+  padding: .1em;
+}
+
+.item-img {
+  background-color: white;
+  justify-content: center;
+  height: 240px;
+  width: 240px;
+  border-radius: 0.75em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+.format-name {
+  font-family: Verdana, sans-serif;
+  font-size: 100%;
+  color: darkblue; 
+}
+
+.format-author {
+  font-family: Georgia, serif;
+  font-size: 95%;
+  color: grey;
+}
