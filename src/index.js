@@ -47,8 +47,6 @@ const item_db = [
   },
 ];
 
-export const breakline = '\u000A';
-
 const Book = (props) => {
   const { book, img, author } = props.item;
   return (
@@ -71,7 +69,7 @@ const Book = (props) => {
 const AllItems = item_db.map((item_info) => {
   console.log("here");
   return (
-    <div class="card">
+    <div className="card">
       <Book item={item_info} />
     </div>
   );
